@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { StyleSheet, TextInput, FlatList, View, Text, Image, Button, ScrollView, TouchableOpacity } from 'react-native'
+import CheckBox from '@react-native-community/checkbox';
 
 
 export default function HomeScreen ({navigation}) {
@@ -124,7 +125,7 @@ const styles = StyleSheet.create({
         
     },
     btnGuest: {
-        color: '#7c7b7b',
+        color: '#BCBCBC',
         paddingTop: 10,
         marginBottom: 20,
         fontSize: 13
